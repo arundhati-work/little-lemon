@@ -1,0 +1,36 @@
+.testimonials-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #EDEFEE;
+    font-family: 'Karla', sans-serif;
+}
+
+.testimonials-container h1{
+    color: #495E57;
+    font-family: 'Markazi Text', serif;
+    font-size: 3rem;
+    padding-top: 2rem;
+}
+
+.testimonials-cards-div{
+    display: grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 3rem;
+}
+
+@media screen and (max-width: 1040px) {
+    .testimonials-cards-div{
+        grid-template-columns: 47% 47%;
+    }
+}
+
+@media screen and (max-width: 659px) {
+    .testimonials-cards-div {
+        display: flex;
+        flex-direction: column;
+    }
+}

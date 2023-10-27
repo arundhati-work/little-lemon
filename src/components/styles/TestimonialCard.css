@@ -1,0 +1,22 @@
+.testimonial-card-container{
+    background-color: #FFF;
+    margin: 1rem;
+    border-radius: 16px;
+    padding: 1rem;
+}
+
+.test-img-desc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.test-desc{
+    padding-left: 1rem;
+}
+
+.rating-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

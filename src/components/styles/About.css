@@ -1,0 +1,45 @@
+.about-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 3rem;
+}
+
+.about-text{
+    width: 40%;
+}
+
+.about-text h1, .about-text h3{
+    font-family: 'Markazi Text', serif;
+}
+
+.about-text h1{
+    color: #495E57;
+    font-size: 3rem;
+}
+
+.about-text h3{
+    color: #F4CE14;
+    font-size: 2rem;
+}
+
+.about-text p{
+    font-family: 'Karla', sans-serif;
+}
+
+@media screen and (max-width: 1024px) {
+    .about-img img{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 852px) {
+    .about-container{
+        flex-direction: column-reverse;
+    }
+
+    .about-text{
+        width: 90%;
+        text-align: center;
+    }
+}
