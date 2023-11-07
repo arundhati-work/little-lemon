@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/little-lemon/static/css/main.7de6b3e0.css",
-    "main.js": "/little-lemon/static/js/main.04d9fa1f.js",
+    "main.js": "/little-lemon/static/js/main.fc934260.js",
     "static/media/mario-adrian-img.png": "/little-lemon/static/media/mario-adrian-img.62496eb128110ce9e892.png",
     "static/media/salad.jpg": "/little-lemon/static/media/salad.e9da913bccc050a72aa3.jpg",
     "static/media/bruschetta1.jpg": "/little-lemon/static/media/bruschetta1.400353996ad5c70be3a2.jpg",
@@ -10,10 +10,10 @@
     "static/media/logo.jpg": "/little-lemon/static/media/logo.7aa41df0270b68cbabda.jpg",
     "index.html": "/little-lemon/index.html",
     "main.7de6b3e0.css.map": "/little-lemon/static/css/main.7de6b3e0.css.map",
-    "main.04d9fa1f.js.map": "/little-lemon/static/js/main.04d9fa1f.js.map"
+    "main.fc934260.js.map": "/little-lemon/static/js/main.fc934260.js.map"
   },
   "entrypoints": [
     "static/css/main.7de6b3e0.css",
-    "static/js/main.04d9fa1f.js"
+    "static/js/main.fc934260.js"
   ]
 }
