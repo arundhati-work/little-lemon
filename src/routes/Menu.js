@@ -1,12 +1,12 @@
 import React from 'react';
-import HeaderElement from '../components/HeaderElement';
 import Footer from '../components/Footer';
 import Specials from '../components/Specials';
+import Navbar from '../components/Navbar';
 
 const Menu = () => {
   return (
     <div>
-      <HeaderElement />
+      <Navbar />
       <Specials />
       <Footer />
     </div>
