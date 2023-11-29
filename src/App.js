@@ -8,14 +8,14 @@ import {Route, Routes} from "react-router-dom";
 
 function App() {
   return (
-    <>
+    <div className="App">
       <Routes>
         <Route path = "/" element = {<Home />}/>
         <Route path = "/reservations" element = {<Reservations />}/>
         <Route path = "/about" element = {<About />}/>
         <Route path = "/menu" element = {<Menu />}/>
       </Routes>
-    </>
+      </div>
   );
 }
 
